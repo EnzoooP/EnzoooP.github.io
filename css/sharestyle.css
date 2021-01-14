@@ -1,6 +1,28 @@
 .test {
     border: 1px solid black;
 }
+.searchicon{
+    background: url('../images/shareicons.png') no-repeat -404px -25px;
+    width: 32px;
+    height: 32px;
+    float: left; 
+}
+.panda {
+    background: url('../images/panda-animation.png') no-repeat -7px -4px;
+	width: 56px;
+	height: 88px;
+    margin: auto;
+}
+.panda:hover{
+    background: url('../images/panda-animation.png') no-repeat -7px -4px;
+	width: 56px;
+	height: 88px;
+    animation: pandaAni 1s steps(12) infinite;
+}
+@keyframes pandaAni{
+    from{background-position-x:0px;}
+    to{background-position-x:-750px;}
+}
 .facsprite {
     background: url('../images/icon.png') no-repeat -182px -91px;
     width: 33px;
